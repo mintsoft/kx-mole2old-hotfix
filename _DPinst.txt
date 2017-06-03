@@ -1,0 +1,18 @@
+
+Driver Package Installer (DPInst)
+https://msdn.microsoft.com/en-us/library/windows/hardware/ff544842%28v=vs.85%29.aspx
+--------------------------------------------------------------------------------------
+
+
+[ Some Command-Line Switches] :
+-------------------------------
+
+/c     Display the text of log messages in the Command Prompt window(aka debug).
+
+/f     Sets the Force IfDriverIsNotBetter flag to ON, which configures DPInst to install a driver on a device even if the driver that is currently installed on the device is a better match than the new driver.
+
+/h     Configures DPInst to display help information about DPInst command-line options. If DPInst was called at a command prompt, DPInst displays the help text in the Command Prompt window; otherwise, DPInst displays the help text in a message box.
+
+/path  Sets the DPInst working directory to DPInst-working-directory. DPInst searches for driver packages in the DPInst working directory and in subdirectories under the working directory that are specified by subDirectory XML elements in a DPInst descriptor file. For more information about how to set the DPInst working directory and specifying subdirectories under the working directory, see Specifying the Location of a Driver Package.
+
+/q     Silent mode
